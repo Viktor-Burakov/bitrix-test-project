@@ -1,0 +1,1 @@
+<img src="/local/images/records.jpg" alt="">

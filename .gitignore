@@ -1,0 +1,67 @@
+bitrix
+
+# ненужные файлы и папки битрикса
+bitrix/cache
+bitrix/components
+bitrix/managed_cache
+bitrix/.settings.php
+bitrix/php_interface/dbconn.php
+bitrix/php_interface/sqlmode_d7.php
+bitrix/php_interface/sqlmode.php
+bitrix/stack_cache
+bitrix/backup
+bitrix/upload
+upload
+uploadsgit
+sitemap*
+bitrixsetup.php
+mysql_debug.sql
+restore.php
+bitrix/modules/updater_partner.log
+bitrix/modules/updater.log
+bitrix/wizards/bitrix/demo
+cron/update_catalog.php.log
+
+# ненужные файлы и папки IDE и операционных систем
+.code-workspace.code-workspace
+.DS_Store
+assets
+site_checker_*.*
+.idea
+*.sublime-workspace
+.buildpath
+.project
+.settings
+nbproject
+Thumbs.db
+.~lock.*
+yandex?*.html
+.vscode
+
+# composer
+vendor
+
+
+# rocketeer
+.rocketeer/logs
+
+
+# vagrant
+.vagrant
+
+
+# apache & nginx conf
+*vhost.conf
+*vhosta.conf
+*vhostn.conf
+
+
+# опасные файлы технических скриптов
+*phpMyAdmin*
+*phpmyadmin*
+*myadmin*
+*adminer.php*
+
+
+# кэш cod style fixer'а
+.php_cs.cache

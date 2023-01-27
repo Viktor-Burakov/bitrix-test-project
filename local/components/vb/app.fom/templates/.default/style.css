@@ -1,0 +1,29 @@
+.btn-field {
+   position: absolute;
+   width: 2.3em;
+   height: 2.3em;
+   bottom: 0;
+   left: 0;
+}
+
+.btn-field:after,
+.btn-field:before {
+   content: '';
+   position: absolute;
+   transform: translate(-50%, -50%);
+   height: 3px;
+   width: 50%;
+   background: #ffffff;
+   top: 50%;
+   left: 50%;
+}
+
+.btn-field:before {
+   height: 50%;
+   width: 3px;
+}
+
+.btn-del:after,
+.btn-del:before {
+   transform: translate(-50%, -50%) rotate(45deg);
+}
